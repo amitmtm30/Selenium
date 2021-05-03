@@ -38,6 +38,7 @@ class MyTestCase(unittest.TestCase):
         self.driver.find_element_by_name("btnK").click()
         time.sleep(10)
         print(" ############ 3")
+        print(" ############ 4")
         print(self.driver.title)
 
     def test_search004(self):
